@@ -28,7 +28,6 @@ public class WorkWithFile {
                         buyAmount += Integer.parseInt(amountStr);
                     }
                 }
-
                 line = reader.readLine();
             }
         } catch (IOException e) {
