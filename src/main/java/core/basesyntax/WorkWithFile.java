@@ -17,6 +17,7 @@ public class WorkWithFile {
 
             while (line != null) {
                 String[] split = line.split(",");
+
                 if (split.length == 2) {
                     String operationType = split[0];
                     String amountStr = split[1];
@@ -27,6 +28,7 @@ public class WorkWithFile {
                         buyAmount += Integer.parseInt(amountStr);
                     }
                 }
+
                 line = reader.readLine();
             }
         } catch (IOException e) {
