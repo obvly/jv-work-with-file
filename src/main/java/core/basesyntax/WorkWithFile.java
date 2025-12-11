@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class WorkWithFile {
     public void getStatistic(String fromFileName, String toFileName) {
+
         int supplyAmount = 0;
         int buyAmount = 0;
 
